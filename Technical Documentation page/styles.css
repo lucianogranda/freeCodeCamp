@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#navbar {
+    background-color: #4CAF50;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#navbar header {
+    padding: 20px;
+    font-size: 1.8em;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    background-color: #3e8e41;
+}
+
+
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section header {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+code {
+    display: block;
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+
+@media screen and (min-width: 768px) {
+    #navbar {
+        width: 250px;
+    }
+    #main-doc {
+        margin-left: 270px;
+    }
+}
